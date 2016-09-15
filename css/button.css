@@ -1,0 +1,256 @@
+#butt {
+	position: absolute;
+	top: 100px;
+}
+
+#but1 {
+	width: 118px;
+	margin-left: -152px;
+	top: 5px;
+	background-color: black;
+	padding-left: 10px;
+	padding: 12px;
+	padding-right: 80px;
+	border-top-right-radius: 5000px;
+	border-bottom-right-radius: 5000px;
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	transition: 0.5s;
+}
+
+#but1 img {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 160px;
+	top: 12px;
+}
+
+#logoutbut {
+	width: 118px;
+	margin-left: -97px;
+	top: 5px;
+	background-color: black;
+	padding-left: 10px;
+	padding: 12px;
+	padding-right: 28px;
+	border-top-right-radius: 5000px;
+	border-bottom-right-radius: 5000px;
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	transition: 0.5s;
+}
+
+#logoutbut img {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 120px;
+	top: 12px;
+}
+
+#but2 {
+	margin-left: -118px;
+	top: 60px;
+	background-color: black;
+	padding-left: 10px;
+	padding: 12px;
+	padding-right: 74px;
+	border-top-right-radius: 5000px;
+	border-bottom-right-radius: 5000px;
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	transition: 0.5s;
+}
+
+#but2 img {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 135px;
+	top: 12px;
+}
+
+#but3 {
+	width: 125px;
+	margin-left: -88px;
+	top: 115px;
+	background-color: black;
+	padding-left: 10px;
+	padding: 12px;
+	border-top-right-radius: 5000px;
+	border-bottom-right-radius: 5000px;
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	transition: 0.5s;
+}
+
+#but3 img {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 108px;
+	top: 12px;
+}
+
+#but4 {
+	width: 120px;
+	margin-left: -81px;
+	top: 170px;
+	background-color: black;
+	padding-left: 10px;
+	padding: 12px;
+	border-top-right-radius: 5000px;
+	border-bottom-right-radius: 5000px;
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	transition: 0.5s;
+}
+
+#but4 img {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 100px;
+	top: 12px;
+}
+
+#but5 {
+	width: 116px;
+	margin-left: -77px;
+	top: 225px;
+	background-color: black;
+	padding-left: 10px;
+	padding: 12px;
+	border-top-right-radius: 5000px;
+	border-bottom-right-radius: 5000px;
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	transition: 0.5s;
+}
+
+#but5 img {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 100px;
+	top: 12px;
+}
+
+#but6 {
+	width: 176px;
+	margin-left: -137px;
+	top: 281px;
+	background-color: black;
+	padding-left: 10px;
+	padding: 12px;
+	border-top-right-radius: 5000px;
+	border-bottom-right-radius: 5000px;
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	transition: 0.5s;
+}
+
+#but6 img {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 156px;
+	top: 12px;
+}
+
+#bulnot {
+	width: 13px;
+	height: 13px;
+	border-radius: 100px;
+	background-color: red;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	position: relative;
+	top: 290px;
+	left: 40px;
+	margin-bottom: -10px;
+	display: none;
+}
+
+#seenoti {
+	position: absolute;
+	top: 305px;
+	left: 65px;
+	width: 175px;
+	max-height: 300px;
+	background: black;
+	color: white;
+	padding: 10px;
+	border-radius: 2px;
+	z-index: 10;
+	overflow-y: scroll;
+	display: none;
+}
+
+#seenoti::-webkit-scrollbar {
+	width: 0;
+}
+
+.notimess {
+	font-size: 14px;
+	background: rgba(255, 255, 255, 0.1);
+	padding: 5px;
+	margin-bottom: 5px;
+	border-radius: 2px;
+}
+
+.notdel {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+}
+
+#but1:hover {
+  margin-left: -5px;
+}
+
+#logoutbut:hover {
+  margin-left: -5px;
+  cursor: pointer;
+}
+
+#but2:hover {
+  margin-left: -5px;
+}
+
+#but3:hover {
+  margin-left: -5px;
+}
+
+#but4:hover {
+  margin-left: -5px;
+}
+
+#but5:hover {
+  margin-left: -5px;
+}
+#but6:hover {
+  cursor: pointer;
+}
+
+#error {
+	margin-top: 15px;
+	color: white;
+}

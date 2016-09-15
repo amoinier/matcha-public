@@ -1,0 +1,141 @@
+#searchbar {
+	margin: 0 auto;
+	height: 50px;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#searchbar input[type=text] {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background-color: rgba(255, 255, 255, 0.4);
+	border: none;
+	outline: none;
+	width: 92%;
+	height: 50px;
+	text-indent: 10px;
+	padding: 0;
+	margin: 0;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+}
+
+#searchbar input[type=text]:focus {
+	background: rgba(255, 255, 255, 0.8);
+}
+
+#searchbut {
+	position: relative;
+	top: 1px;
+	width: 5.3%;
+	height: 50px;
+	background: rgba(255, 255, 255, 1);
+	outline: none;
+	margin: 0;
+	padding: 16px 10px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+}
+
+#searchbut:hover {
+	background: rgba(255, 255, 255, 0.2);
+	color: white;
+	cursor: pointer;
+}
+
+#adsearch {
+	background-color: rgba(255, 255, 255, 0.15);
+	line-height: 1.7;
+	padding: 10px 10px;
+	color: white;
+	margin: 20px;
+	border-radius: 3px;
+	margin-bottom: 40px;
+}
+
+#adsearch input {
+	border: none;
+	outline: none;
+	background: black;
+	color: white;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+#adsearch input[type=button] {
+	color: black;
+	background: white;
+	width: 100%;
+	padding: 10px;
+	margin-top: 10px;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+}
+
+#adsearch input[type=button]:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	color: white;
+}
+
+#filtra {
+	background: white;
+	color: black;
+	float: right;
+	margin-right: 90px;
+	margin-top: -28px;
+}
+
+#order {
+	background: white;
+	color: black;
+	float: right;
+	margin-right: 40px;
+	margin-top: -28px;
+}
+
+.peo {
+	background-color: rgba(255, 255, 255, 0.15);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 3px;
+	color: white;
+}
+
+.peo img {
+	width: 200px;
+	height: auto;
+	max-height: 300px;
+	border-radius: 3px
+}
+
+.peo a {
+	text-decoration: none;
+}
+
+.imagese {
+	width: 200px;
+	float: left;
+	display: inline-block;
+}
+
+.infose {
+	line-height: 2;
+	font-size: 14px;
+	display: inline-block;
+	position: relative;
+	left: 10px;
+}
+
+.namese {
+	width: 200px;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}

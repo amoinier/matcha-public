@@ -1,0 +1,131 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: helvetica;
+	background-color: white;
+}
+
+#fond {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+
+#fond2 {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	opacity: 0;
+}
+
+#header {
+	width: 100%;
+	height: 80px;
+	margin: 0 0;
+	padding: 0 0;
+	background-color: rgba(97, 22, 22, 1);
+	position: relative;
+	border-bottom:1px solid #000;
+	margin-bottom: 100px;
+}
+
+#errbox {
+	top: 0px;
+	width: 99.6%;
+	padding: 15px;
+	font-size: 18px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	display: none;
+	position: fixed;
+	padding-left: 50px;
+}
+
+#errbox img {
+	position: fixed;
+	width: 20px;
+	height: 20px;
+	margin-left: -25px;
+}
+
+#errbox2 {
+	top: 0px;
+	width: 99.6%;
+	padding: 15px;
+	font-size: 18px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	display: block;
+	position: fixed;
+	padding-left: 50px;
+}
+
+#errbox2 img {
+	position: fixed;
+	width: 20px;
+	height: 20px;
+	margin-left: -25px;
+}
+
+#titlelink {
+	text-decoration: none;
+}
+
+#title {
+	position: absolute;
+	font-size: 60px;
+	color: white;
+	font-family: champagne;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+#titlelink:hover {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  25% {
+    margin-left: -1%;
+    width: 100%;
+  }
+
+  50% {
+	margin-left: 1%;
+	width: 100%;
+  }
+
+  75% {
+	margin-left: -1%;
+	width: 100%;
+  }
+
+  100% {
+	margin-left: 0%;
+	width: 100%;
+  }
+}
+
+#copyr {
+	margin-top: 25px;
+	margin-right: 25.7px;
+	float: right;
+	font-size: 12.85px;
+	color: white;
+	font-family: helvetica;
+	font-style: italic;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	margin-left: -35px;
+}

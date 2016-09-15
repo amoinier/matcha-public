@@ -1,0 +1,203 @@
+#edittext {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: justify;
+	width: 100%;
+	font-size: 14px;
+	border-radius: 3px;
+	outline: none;
+	border: none;
+	resize: none;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	padding: 10px 10px;
+	margin-bottom: 8px;
+}
+
+#name input[type='text'] {
+	border-radius: 2px;
+	outline: none;
+	border: none;
+	padding: 5px 2px;
+	font-size: 32px;
+	text-indent:5px;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	margin-right: -10px;
+}
+
+#info input[type='text'] {
+	border-radius: 2px;
+	outline: none;
+	border: none;
+	padding: 5px 2px;
+	text-indent:5px;
+	font-family: 'Helvetica';
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+#info input[type='date'] {
+	border-radius: 2px;
+	outline: none;
+	border: none;
+	padding: 5px 2px;
+	text-indent:5px;
+	font-family: 'Helvetica';
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+#info input[type=submit] {
+	background: white;
+    padding: 8px 0;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 15px;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+#info input[type=submit]:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	color: white;
+}
+
+#tags input {
+	border-radius: 2px;
+	outline: none;
+	border: none;
+	padding: 5px 2px;
+	text-indent:5px;
+	font-family: 'Helvetica';
+}
+
+#tags select {
+	outline: none;
+	border: none;
+
+}
+
+#tags input[type=submit] {
+	background: white;
+	padding: 3px 20px;
+	padding-right: 23px;
+	font-family: Helvetica;
+	font-size: 14px;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	position: relative;
+	top: 2px;
+}
+
+#tags input[type=submit]:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	color: white;
+}
+
+#tags form {
+	display: inline;
+}
+
+#pdp form {
+	display: inline;
+}
+
+#tags span {
+	margin-left: 20px;
+}
+
+#tags input[name='delete'] {
+	height: 18px;
+	width: 18px;
+	position: absolute;
+	margin-top: -6px;
+	margin-left: -3px;
+}
+
+#name input[type=submit] {
+	background: white;
+	padding: 15px 15px;
+	font-family: Helvetica;
+	font-size: 15px;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	border: none;
+	outline: none;
+	margin-left: 5px;
+	border-radius: 2px;
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 0.6px;
+}
+
+#name input[type=submit]:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	color: white;
+}
+
+#biog input[type=submit] {
+	background: white;
+	padding: 8px;
+	width: 100%;
+	font-family: Helvetica;
+	font-size: 15px;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	margin-bottom: 5px;
+
+}
+
+#biog input[type=submit]:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	color: white;
+}
+
+#butuse input[name='upload'] {
+	border-radius: 2px;
+	background: white;
+	color: black;
+	padding: 3px;
+	width: 270px;
+	font-family: Helvetica;
+	font-size: 15px;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+}
+
+#butuse input[name='upload']:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	color: white;
+}
+
+#butuse input[type='file'] {
+	background-color: rgba(255, 255, 255, 0);
+	width: 220px;
+	margin-bottom: -20px;
+}
+
+.imgdel {
+	width: 20px;
+	height: 20px;
+	margin-left: -23px;
+}
+
+#gps {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	margin-left: 5px;
+}

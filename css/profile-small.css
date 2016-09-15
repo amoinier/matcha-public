@@ -1,0 +1,302 @@
+#searchbar input[type=text] {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background-color: rgba(255, 255, 255, 0.4);
+	border: none;
+	outline: none;
+	width: 50%;
+	height: 50px;
+	text-indent: 10px;
+	padding: 0;
+	margin: 0;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+}
+
+#profile {
+	position: relative;
+	background: rgb(0, 0, 0);
+	top: -76px;
+	border-radius: 3px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#left {
+	float: none;
+	margin: 20px;
+	color: white;
+}
+
+#pdp {
+	width: auto;
+	color: white;
+	float: none;
+	background-color: rgba(255, 255, 255, 0.15);
+	border-radius: 2px;
+	margin-bottom: 20px;
+	padding: 0 10px;
+	padding-top: 10px
+}
+
+#pdpp{
+	max-height: none;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	border-radius: 2px;
+	margin-bottom: 10px;
+}
+
+.min {
+	width: 100px;
+	height: 100px;
+	border-radius: 2px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	display: inline-block;
+	border: none;
+	outline: none;
+}
+
+#name {
+	color: white;
+	padding: 10px;
+	padding-right: 30px;
+	top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+	font-size: 32px;
+	background-color: rgba(255, 255, 255, 0.15);
+	border-radius: 2px;
+}
+
+#name input {
+	width: 32%;
+	position: relative;
+}
+
+#biog {
+	color: white;
+	padding: 10px 10px;
+	text-align: justify
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: rgba(255, 255, 255, 0.15);
+	border-radius: 2px;
+}
+
+#biog div {
+	text-align: center;
+	font-size: 28px;
+	color: white;
+	margin: 0 auto;
+	padding-top: 5px;
+}
+
+#textbio {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: justify;
+	width: 100%;
+	font-size: 14px;
+	border-radius: 3px;
+	outline: none;
+	border: none;
+	resize: none;
+	background-color: rgba(255, 255, 255, 0);
+	color: white;
+	padding: 10px 10px;
+	margin-bottom: 8px;
+}
+
+#tags {
+	color: white;
+	padding: 10px 10px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: rgba(255, 255, 255, 0.15);
+	border-radius: 2px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+#tags div {
+	text-align: center;
+	font-size: 28px;
+	color: white;
+	margin: 0 auto;
+	padding-top: 5px;
+}
+
+#info {
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.15);
+	border-radius: 2px;
+}
+
+#info div {
+	margin-bottom: 15px;
+}
+
+#infott {
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#visit {
+	color: white;
+	padding: 10px 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color: rgba(255, 255, 255, 0.15);
+	border-radius: 2px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+#visit div{
+	text-align: center;
+	font-size: 28px;
+	color: white;
+	margin: 0 auto;
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+
+a {color: white;}
+
+#butuse {
+	margin-bottom: 20px;
+}
+
+#butuse input {
+	width: 33.3333%;
+	height: 50px;
+	font-family: Helvetica;
+	font-size: 18px;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	outline: none;
+	border: none;
+	color: white;
+	margin-right: -4.5px;
+}
+
+#chat {
+	color: white;
+	padding: 10px 10px;
+	margin-right: 20px;
+	margin-top: 20px;
+	background-color: rgba(255, 255, 255, 0.15);
+	border-radius: 2px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	line-height: 1.5;
+}
+
+#chat div{
+	text-align: center;
+	font-size: 28px;
+	color: white;
+	margin: 0 auto;
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+
+#chat input[type=submit] {
+	background: white;
+	padding: 17px 8px;
+	width: 20%;
+	font-family: Helvetica;
+	font-size: 15px;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	margin-left: 5px;
+	margin-bottom: -30px;
+	position: relative;
+	top: -29px;
+
+}
+
+#chat input[type=submit]:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	color: white;
+}
+
+#sendmess {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: justify;
+	width: 78%;
+	font-size: 14px;
+	border-radius: 3px;
+	outline: none;
+	border: none;
+	resize: none;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	padding: 10px 10px;
+	margin-bottom: 8px;
+}
+
+#textchat {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: justify;
+	width: 100%;
+	font-size: 14px;
+	border-radius: 3px;
+	outline: none;
+	border: none;
+	resize: none;
+	background-color: rgba(255, 255, 255, 0);
+	color: white;
+	padding: 10px 10px;
+	margin-bottom: 8px;
+}
+
+#report {
+	background-color: rgb(175, 0, 0);
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+#report:hover {
+	background-color: rgba(175, 0, 0, 0.4);
+}
+
+#block {
+	background-color: rgb(186, 112, 0);
+}
+
+#block:hover {
+	background-color: rgba(186, 112, 0, 0.4);
+}
+
+#likeb {
+	background-color: rgb(0, 144, 2);
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+#likeb:hover {
+	background-color: rgba(0, 144, 2, 0.4);
+}

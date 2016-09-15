@@ -1,0 +1,49 @@
+#arrow {
+	color: white;
+	text-align: center;
+	display: none;
+}
+
+#arrow input[type=button] {
+	color: black;
+	background: white;
+	width: 40%;
+	padding: 10px;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 18px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#arrow input[type=button]:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	color: white;
+}
+
+#valtag {
+	color: black;
+	background-color: white;
+	width: 100px;
+	padding: 2px;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 18px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#valtag:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	color: white;
+}
